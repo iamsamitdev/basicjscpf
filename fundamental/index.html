@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <form name="userform" action="index.html" method="post" onsubmit="return false;">
+        Name: <input type="text" name="firstname" onkeyup="getData()"> 
+        <button type="button" onclick="getData()">Submit</button>
+    </form>
+    <hr>
+    <div id="resultarea">แสดงผลที่นี่</div>
    <!-- <button onclick="wakeup()">Wake up</button> -->
    <!-- <button onclick="showinfo()">Show info</button> -->
    <!-- <button onclick="document.write('พื้นที่='+ circleArea(10).toFixed(2))">Cal Area</button> -->
@@ -16,6 +22,7 @@
    <!-- <script src="4_loop_while.js"></script> -->
    <!-- <script src="5_function.js"></script> -->
    <!-- <script src="6_array.js"></script> -->
-    <script src="7_object.js"></script>
+    <!-- <script src="7_object.js"></script> -->
+    <script src="8_form_and_tag.js"></script>
 </body>
 </html>

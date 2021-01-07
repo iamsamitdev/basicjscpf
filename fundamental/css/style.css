@@ -1,0 +1,19 @@
+.normal-box {
+    width: 30%;
+    height: 50px;
+    border: 2px solid rgb(179, 30, 30);
+    display: inline-block;
+    text-align: center; /* จัดกึ่งกลางแนวนอน */
+    padding-top: 50px;
+    /* float: left; */
+}
+
+.last-box {
+    width: 30%;
+    height: 50px;
+    border: 2px solid rgb(179, 30, 30);
+    display: inline-block;
+    padding-top: 50px;
+    text-align: center; /* จัดกึ่งกลางแนวนอน */
+    /* float: none; */
+}
